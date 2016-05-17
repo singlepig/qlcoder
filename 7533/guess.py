@@ -15,6 +15,7 @@ def main():
         startDate -= 1
         print(startDate)
 
+
 def checkmd5(str, md5str):
     m = hashlib.md5()
     m.update(str)
@@ -24,5 +25,5 @@ def checkmd5(str, md5str):
     return False
 
 if __name__ == '__main__':
-    import  hashlib
+    import hashlib
     main()
