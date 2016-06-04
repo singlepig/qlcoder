@@ -2,3 +2,7 @@
 *.class
 *.txt
 769b/taobaoip/
+
+*.sublime-project
+
+*.sublime-workspace
